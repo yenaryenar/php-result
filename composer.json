@@ -1,0 +1,25 @@
+{
+    "name": "php-result/result",
+    "description": "Result object for PHP inspired by Kotlin",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4",
+        "phpoption/phpoption": "^1.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpResult\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpResult\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
